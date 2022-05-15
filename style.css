@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,8 +7,9 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  }
-header { border: solid red 2px;
+}
+header {
+  border: solid red 2px;
   flex: 1 1;
 }
 section {
@@ -16,9 +17,9 @@ section {
   border: solid black 2px;
   flex: 6 1;
 }
-.container-configurations{
+.container-configurations {
   flex: 1 1;
-  border: blue solid 2px;
+  border: rgb(0, 0, 255) solid 2px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +33,7 @@ section {
   border: orange dotted 2px;
   flex: 1 1;
 }
-.container-grid{
+.container-grid {
   flex: 1 1;
   border: rgb(255, 0, 0) solid 2px;
   display: flex;
@@ -45,13 +46,19 @@ section {
   max-height: 80%;
   aspect-ratio: 1 / 1;
   flex-wrap: wrap;
-  }
-.pixel {
+}
+
+footer {
+  flex: 1 1;
+  border: solid green 2px;
+}
+
+.pintado {
+  background-color: black;
   aspect-ratio: 1 / 1;
   border: rgb(0, 0, 0) solid 1px;
 }
-footer{
-  flex: 1 1;
-  border: solid green 2px;
-  }
-
+.pixel {
+  aspect-ratio: 1 / 1;
+  border: black solid 1px;
+}
