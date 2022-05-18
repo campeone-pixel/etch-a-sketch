@@ -7,19 +7,30 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background: rgb(2, 0, 36);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 43, 1) 18%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 header {
-  border: solid red 2px;
   flex: 1 1;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 section {
   display: flex;
-  border: solid black 2px;
+
   flex: 6 1;
 }
 .container-configurations {
   flex: 1 1;
-  border: rgb(0, 0, 255) solid 2px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,14 +39,37 @@ section {
   display: flex;
   max-width: 80%;
   flex-direction: column;
-  justify-content: center;
-  align-items: stretch;
-  border: orange dotted 2px;
+  align-items: center;
+
   flex: 1 1;
+  gap: 1em;
 }
+
+.wrapper {
+  display: flex;
+
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1em;
+}
+
+.button {
+  border-radius: 5px;
+}
+
+.buttonOff {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.buttonOn {
+  border-radius: 5px;
+  background-color: rgb(106, 92, 92);
+}
+
 .container-grid {
   flex: 1 1;
-  border: rgb(255, 0, 0) solid 2px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,14 +84,12 @@ section {
 
 footer {
   flex: 1 1;
-  border: solid green 2px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.pintado {
-  background-color: black;
-  aspect-ratio: 1 / 1;
-  border: rgb(0, 0, 0) solid 1px;
-}
 .pixel {
   background-color: rgb(255, 255, 255);
   aspect-ratio: 1 / 1;
